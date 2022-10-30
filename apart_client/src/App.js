@@ -12,7 +12,6 @@ function App() {
     apiGetBackend()
       .then((getBackend) => {
         setItens(getBackend)
-        
       })
       .catch((err) => {
         console.log("erro " + err);
@@ -22,7 +21,9 @@ function App() {
     <>
       <Header/>
       <AllCards>
-        <Cards/>
+      {itens.map(({id, title, locale, price, pic1, pic2, pic3, pic4, pic5})=>{
+        return <Cards key={id} title={title} locale={locale} price={price} pic1={pic1} pic2={pic2} pic3={pic3} pic4={pic4} pic5={pic5}/>
+      })}
       </AllCards>
     </>
   );
