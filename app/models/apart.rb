@@ -1,0 +1,2 @@
+class Apart < ApplicationRecord
+end

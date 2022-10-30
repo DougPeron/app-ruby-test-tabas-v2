@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(236, 236, 236);
+}
+
+.navbar{
+  background-color: #7C7C7C;
+}
+.navbar-brand{
+  color: #F5DD16 !important;
+}
+.allcards{
+  display: flex;
+  flex-wrap: wrap;
+}
