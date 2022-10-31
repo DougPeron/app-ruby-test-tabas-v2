@@ -1,10 +1,10 @@
 # TESTE RUBY TABAS
 
-Projeto criado para teste utilizando no back Ruby com framework Rails, front com React lib bootstrap.
+Projeto criado para teste utilizando Ruby com framework Rails, front-end em React lib bootstrap.
 
 Para iniciar o teste do app: 
 
-Iniciar server na pasta raiz /app_apart com o comando: rails s -p 3001
+Iniciar server na pasta raiz / com o comando: rails s -p 3001
 
 Após iniciar server iniciar app na pasta /apart_client com o comando: npm start
 
